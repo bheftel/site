@@ -1,0 +1,20 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:brannonheftel-site.git"
+  },
+  "author": "brannon",
+  "license": "BSD",
+  "gitHead": "d740f5683b3fc166b982f5cc67f30aefda979124",
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.8"
+  }
+}
