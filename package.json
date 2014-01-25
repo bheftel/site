@@ -15,6 +15,7 @@
   "gitHead": "d740f5683b3fc166b982f5cc67f30aefda979124",
   "dependencies": {
     "logfmt": "~0.18.1",
-    "express": "~3.4.8"
+    "express": "~3.4.8",
+    "node-static": "~0.7.3"
   }
 }
