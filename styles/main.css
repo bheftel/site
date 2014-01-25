@@ -1,0 +1,175 @@
+*
+{
+	position: relative;
+}
+
+body
+{
+	background-color: #F7F1EC;
+	overflow-y: scroll;
+	margin: 0;
+}
+
+#loading_screen
+{
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	z-index: 99999999;
+	top: 0px;
+	left: 0px;
+	background-color: #F7F1EC;
+}
+
+#loading_screen > div 
+{
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 12%;
+	text-align: center;
+	font-family: 'Jacques Francois Shadow', serif;
+	font-size: 22px;
+}
+
+#main
+{
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #333;
+	padding: 18px;
+	font-family: 'Jacques Francois Shadow', serif;
+}
+
+div.header
+{
+	font-size: 168pt;
+	/* text-align: right; */
+
+	float: right;
+	width: inherit;
+	line-height: 210px;
+	z-index: -999999;
+}
+
+div.menu
+{
+	float: left;
+	width: 250px;
+	font-size: 36pt;
+	
+	position: absolute;
+	top: 200px;
+	z-index: 999999;
+}
+
+div.menu > ul
+{
+	list-style: none;
+	padding: 0;
+}
+
+div.menu a, a.back_link
+{
+	text-decoration: none;
+	color: #aaa;
+	display: block;
+	
+	transition: color .3s, text-shadow .3s;
+	-moz-transition: color .3s, text-shadow .3s; /* Firefox 4 */
+	-webkit-transition: color .3s, text-shadow .3s; /* Safari and Chrome */
+	-o-transition: color .3s, text-shadow .3s;  Opera 
+}
+
+div.menu a:hover, a.back_link:hover
+{
+	color: #666;
+	text-shadow: 0px 0px 1px rgba(100, 100, 100, .02);
+}
+
+div#inner_main
+{
+	width: 6000px;
+	height: 800px;
+	position: relative;
+}
+
+div#name_container
+{
+	overflow: hidden;
+	float:right;
+	width: inherit;
+	text-align: right;
+	z-index: 99999;
+}
+
+div#name_container a
+{
+	text-decoration: none;
+	color: #333;
+}
+
+div#music_main, div#front_page, div#code_main, div#portfolio_main, div#resume_main
+{
+	width: 960px;
+/*
+	height: 500px;
+*/
+/*
+	top: 10px;
+	bottom: 400px;
+*/
+/*
+	height: inherit;
+*/
+	float: left;
+	position: absolute;
+}
+
+div#resume_main
+{
+	height: 1465px;
+}
+
+div#music_main, div#code_main, div#portfolio_main, div#resume_main
+{
+	left: 0px;
+ 	display: none;
+}
+
+div.page_content
+{
+	float: right;
+	width: 550px;
+	font-size: 15pt;
+}
+
+.title
+{
+	font-size: 35pt;
+	margin-bottom: 15px;
+}
+
+div.page_content > div#videos a
+{
+	color: #0080FF;
+}
+
+div.page_content > div#videos iframe
+{
+	box-shadow: 0 0 15px;
+}
+
+a.back_link
+{
+	color: #555;
+	font-size: 20pt;
+	float: right;
+}
+
+div#soundcloud_container
+{
+	width: 600px;
+	float: right;
+	padding: 20px;
+}
