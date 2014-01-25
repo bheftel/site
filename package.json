@@ -1,5 +1,5 @@
 {
-  "name": "site",
+  "name": "brannonheftel-site",
   "version": "0.0.0",
   "description": "ERROR: No README.md file found!",
   "main": "index.js",
@@ -17,5 +17,6 @@
     "logfmt": "~0.18.1",
     "express": "~3.4.8",
     "node-static": "~0.7.3"
-  }
+  },
+  "devDependencies": {}
 }
